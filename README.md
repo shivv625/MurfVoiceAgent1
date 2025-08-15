@@ -126,14 +126,14 @@ This project was developed by **Sibsankar Samal**. I am a passionate developer w
 
 Feel free to reach out and connect\!
 
-\<div align="center"\>
-\<a href="[https://www.linkedin.com/in/sibsankarsamal](https://www.linkedin.com/in/sibsankarsamal)" target="\_blank"\>
-\<img src="[https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0A66C2%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite)" alt="LinkedIn"/\>
-\</a\>
-\<a href="[https://www.instagram.com/ft.shivv/](https://www.instagram.com/ft.shivv/)" target="\_blank"\>
-\<img src="[https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge\&logo=instagram\&logoColor=white](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)" alt="Instagram"/\>
-\</a\>
-\<a href="[https://sibsankarportfolio.netlify.app/](https://sibsankarportfolio.netlify.app/)" target="\_blank"\>
-\<img src="[https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge\&logo=web\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Portfolio-00C7B7%3Fstyle%3Dfor-the-badge%26logo%3Dweb%26logoColor%3Dwhite)" alt="Portfolio"/\>
-\</a\>
-\</div\>
+<p align="left">
+  <a href="https://www.linkedin.com/in/sibsankarsamal" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/ft.shivv/" target="_blank">
+    <img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+  <a href="https://sibsankarportfolio.netlify.app" target="_blank">
+    <img alt="Portfolio" src="https://img.shields.io/badge/My_Portfolio-282C34?style=for-the-badge&logo=suckless&logoColor=white" />
+  </a>
+</p>
