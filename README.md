@@ -1,8 +1,6 @@
-My apologies, it sounds like there might be a display issue on your end preventing the document from rendering correctly.
-
-Here is the full content of the `README.md` file directly in the chat so you can see it.
-
----
+<a href="https://www.linkedin.com/in/sibsankarsamal" target="_blank">
+  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
 
 # 🎙️ AI Voice Agent with React & FastAPI
 
