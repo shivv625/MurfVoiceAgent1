@@ -1,146 +1,157 @@
-<a href="https://www.linkedin.com/in/sibsankarsamal" target="_blank">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
+\<br/\>
+\<div align="center"\>
+\<img src="[https://i.imgur.com/your-logo-image-url.png](https://www.google.com/search?q=https://i.imgur.com/your-logo-image-url.png)" alt="Alternex Logo" width="150"/\>
+\<h1\>
+\<b\>Alternex Voice Agent\</b\>
+\</h1\>
+\<p\>
+A modern, voice-first conversational AI with contextual memory, built with FastAPI and a sleek frontend.
+\</p\>
 
-# 🎙️ AI Voice Agent with React & FastAPI
-
-Welcome to the AI Voice Agent project\! This is a modern, conversational AI built with a sleek React frontend and a powerful Python (FastAPI) backend. It's designed to be a seamless, voice-first experience, allowing users to have natural conversations with an AI that remembers the context of your chat.
-
-_(Suggestion: Replace this with a screenshot of your running application for a great visual effect\!)_
-
----
-
-## ✨ Features
-
-- **Modern & Animated UI**: A beautiful, dark-themed user interface built with React and animated using Framer Motion for a smooth, professional feel.
-- **Voice-First Interaction**: Click the microphone, speak your query, and get a voice response.
-- **Conversational Memory**: The agent remembers the history of your current conversation, allowing for follow-up questions and contextual understanding.
-- **Real-time Processing**: The application provides a seamless flow from your speech to the AI's response.
-- **Robust Error Handling**: The agent gracefully handles potential API failures and provides clear feedback to the user.
-- **Separated Frontend & Backend**: A professional monorepo structure that separates the UI (React) from the logic (FastAPI), making the project scalable and easy to maintain.
+\<p\>
+\<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite)" alt="Python Badge"/\>
+\<img src="[https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/FastAPI-009688%3Fstyle%3Dfor-the-badge%26logo%3Dfastapi%26logoColor%3Dwhite)" alt="FastAPI Badge"/\>
+\<img src="[https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black](https://www.google.com/search?q=https://img.shields.io/badge/JavaScript-F7DF1E%3Fstyle%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3Dblack)" alt="JavaScript Badge"/\>
+\</p\>
+\</div\>
+\<br/\>
 
 ---
 
-## 🚀 Tech Stack
+### **▶️ Demo**
 
-This project uses a modern set of technologies for both the frontend and backend.
+_A live demonstration of the Alternex Voice Agent in action._
 
-| Frontend          | Backend         | AI Services       |
-| :---------------- | :-------------- | :---------------- |
-| **React**         | **Python 3.8+** | **Google Gemini** |
-| **Framer Motion** | **FastAPI**     | **AssemblyAI**    |
-| **Tailwind CSS**  | **Uvicorn**     | **Murf AI**       |
-| **JavaScript**    | **Requests**    |                   |
+\<div align="center"\>
+\<img src="[https://i.imgur.com/your-gif-url.gif](https://www.google.com/search?q=https://i.imgur.com/your-gif-url.gif)" alt="Alternex Voice Agent Demo"/\>
+\</div\>
 
 ---
 
-## 📂 Project Structure
+### **✨ Features**
 
-The project is organized into two main directories: `backend` and `frontend`.
+Alternex is designed to provide a seamless and intuitive conversational experience.
+
+- **🗣️ Voice-First Interaction**: Simply tap the microphone, speak your query, and receive a spoken response in real-time.
+- **🧠 Conversational Memory**: The agent remembers the context of your current conversation, allowing for natural follow-up questions.
+- **🚀 High-Performance Backend**: Built with **FastAPI**, ensuring fast, asynchronous request handling.
+- **🎨 Modern UI**: A clean and responsive user interface that looks great on any device.
+- **🔒 Secure API Handling**: API keys are kept secure and out of version control using a simple and effective configuration method.
+- **🏗️ Modular & Scalable**: The backend is organized into logical services, making it easy to maintain and extend.
+
+---
+
+### **🛠️ Tech Stack**
+
+This project leverages a modern stack of technologies for a robust and efficient application.
+
+| Area            | Technology                                                                                                      |
+| :-------------- | :-------------------------------------------------------------------------------------------------------------- |
+| **Backend**     |                                                                                                                 |
+| **Frontend**    |                                                                                                                 |
+| **AI Services** | **Google Gemini** (Language Model) \<br/\> **AssemblyAI** (Speech-to-Text) \<br/\> **Murf AI** (Text-to-Speech) |
+
+---
+
+### **📂 Project Structure**
+
+The project is organized with a clean separation of concerns.
 
 ```
 /voice-agent-project/
 │
 ├── backend/
+│   ├── .gitignore
 │   ├── main.py             # FastAPI server logic
-│   ├── requirements.txt      # Python dependencies
-│   └── static/
-│       └── fallback.mp3    # Audio for error states
+│   ├── config.py           # Secure API key storage (ignored by Git)
+│   ├── requirements.txt    # Python dependencies
+│   │
+│   ├── services/           # Modular services for third-party APIs
+│   │   ├── __init__.py
+│   │   ├── llm.py          # Handles Gemini LLM logic
+│   │   ├── stt.py          # Handles AssemblyAI STT logic
+│   │   └── tts.py          # Handles Murf AI TTS logic
+│   │
+│   ├── static/
+│   │   ├── fallback.mp3
+│   │   └── script.js
+│   │
+│   └── templates/
+│       └── index.html
 │
-├── frontend/
-│   ├── public/
-│   │   └── index.html      # Main HTML shell for React
-│   ├── src/
-│   │   ├── App.js          # The main React component
-│   │   ├── index.css       # Tailwind CSS styles
-│   │   └── index.js        # React entry point
-│   ├── package.json        # Frontend dependencies
-│   └── ...                 # Other config files
-│
-└── README.md               # This file
+└── README.md
 ```
 
 ---
 
-## 🛠️ How to Run
+### **🚀 Getting Started**
 
-To run this project, you will need to start two separate servers in two different terminals: one for the backend and one for the frontend.
+Follow these steps to get the Alternex Voice Agent running on your local machine.
 
-### 1\. Backend Setup
+#### **Prerequisites**
 
-First, navigate to the `backend` directory.
+- Python 3.8+
+- An IDE like VS Code
 
-```bash
-cd backend
-```
-
-Create a virtual environment and install the required Python packages.
+#### **1. Clone the Repository**
 
 ```bash
-# Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-
-# Install dependencies
-pip install -r requirements.txt
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name/backend
 ```
 
-**Important**: Before starting the server, you must have your API keys set up. The current `main.py` has them hardcoded for ease of use, but for production, you should use a `.env` file.
+#### **2. Set Up the Backend**
 
-Run the FastAPI server.
+- **Create a virtual environment:**
+  ```bash
+  python -m venv venv
+  source venv/bin/activate  # On Windows: venv\Scripts\activate
+  ```
+- **Install dependencies:**
+  ```bash
+  pip install -r requirements.txt
+  ```
 
-```bash
-uvicorn main:app --reload
-```
+#### **3. Configure API Keys**
 
-Your backend will now be running at `http://127.0.0.1:8000`.
+- Create a file named `config.py` inside the `backend` directory.
+- **Important**: The `.gitignore` file is already set up to prevent `config.py` from being uploaded to GitHub, keeping your keys safe.
+- Copy the following into `config.py` and add your secret keys:
+  ```python
+  # backend/config.py
+  MURF_API_KEY = "your_murf_api_key"
+  ASSEMBLYAI_API_KEY = "your_assemblyai_api_key"
+  GEMINI_API_KEY = "your_gemini_api_key"
+  ```
 
-### 2\. Frontend Setup
+#### **4. Run the Application**
 
-Open a **new terminal** and navigate to the `frontend` directory.
-
-```bash
-cd frontend
-```
-
-Install the required Node.js packages.
-
-```bash
-npm install
-```
-
-Start the React development server.
-
-```bash
-npm start
-```
-
-Your browser should automatically open to `http://localhost:3000`. You can now interact with your new voice agent\!
+- Start the FastAPI server:
+  ```bash
+  uvicorn main:app --reload
+  ```
+- Open your browser and navigate to `http://127.0.0.1:8000`.
 
 ---
 
-## 🔑 API Keys
+### **👨‍💻 About the Author**
 
-This project requires API keys from three services:
-
-- **Murf AI** (Text-to-Speech)
-- **AssemblyAI** (Speech-to-Text)
-- **Google Gemini** (Language Model)
-
-For simplicity, these keys are currently set directly in the `backend/main.py` file. For a production environment, it is highly recommended to create a `.env` file in the `backend` directory and load them using a library like `python-dotenv`.
-
-**Example `backend/.env` file:**
-
-```
-MURF_API_KEY="your_murf_api_key"
-ASSEMBLYAI_API_KEY="your_assemblyai_api_key"
-GEMINI_API_KEY="your_gemini_api_key"
-```
+This project was developed by **Sibsankar Samal**. I am a passionate developer with a love for building innovative and user-friendly applications.
 
 ---
 
-## 💡 Troubleshooting
+### **📫 Connect with Me**
 
-- **CORS Errors**: If the frontend has trouble connecting to the backend, ensure the `CORSMiddleware` in `main.py` is correctly configured. The current setup allows all origins (`*`) for development.
-- **`npm start` fails**: If you encounter errors like `Cannot find module`, delete the `node_modules` folder and the `package-lock.json` file in the `frontend` directory, then run `npm install` again.
-- **Microphone Access**: Make sure you grant the browser permission to access your microphone when prompted.
+Feel free to reach out and connect\!
+
+\<div align="center"\>
+\<a href="[https://www.linkedin.com/in/sibsankarsamal](https://www.linkedin.com/in/sibsankarsamal)" target="\_blank"\>
+\<img src="[https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0A66C2%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite)" alt="LinkedIn"/\>
+\</a\>
+\<a href="[https://www.instagram.com/ft.shivv/](https://www.instagram.com/ft.shivv/)" target="\_blank"\>
+\<img src="[https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge\&logo=instagram\&logoColor=white](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)" alt="Instagram"/\>
+\</a\>
+\<a href="[https://sibsankarportfolio.netlify.app/](https://sibsankarportfolio.netlify.app/)" target="\_blank"\>
+\<img src="[https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge\&logo=web\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Portfolio-00C7B7%3Fstyle%3Dfor-the-badge%26logo%3Dweb%26logoColor%3Dwhite)" alt="Portfolio"/\>
+\</a\>
+\</div\>
