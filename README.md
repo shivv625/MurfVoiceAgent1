@@ -1,14 +1,7 @@
 
 
-### **▶️ Demo**
+### **▶🚀 Alternex-VoiceAgent   By SibSankar**
 
-_A live demonstration of the Alternex Voice Agent in action._
-
-\<div align="center"\>
-\<img src="[https://i.imgur.com/your-gif-url.gif](https://www.google.com/search?q=https://i.imgur.com/your-gif-url.gif)" alt="Alternex Voice Agent Demo"/\>
-\</div\>
-
----
 
 ### **✨ Features**
 
