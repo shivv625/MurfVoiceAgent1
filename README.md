@@ -22,8 +22,8 @@ This project leverages a modern stack of technologies for a robust and efficient
 
 | Area            | Technology                                                                                                      |
 | :-------------- | :-------------------------------------------------------------------------------------------------------------- |
-| **Backend**     |                                                                                                                 |
-| **Frontend**    |                                                                                                                 |
+| **Backend**     | **Fast API** -Python                                                                                                                |
+| **Frontend**    | **HTML CSS JAVASCRIPT**                                                                                                                |
 | **AI Services** | **Google Gemini** (Language Model) \<br/\> **AssemblyAI** (Speech-to-Text) \<br/\> **Murf AI** (Text-to-Speech) |
 
 ---
