@@ -1,22 +1,4 @@
-\<br/\>
-\<div align="center"\>
-\<img src="[https://i.imgur.com/your-logo-image-url.png](https://www.google.com/search?q=https://i.imgur.com/your-logo-image-url.png)" alt="Alternex Logo" width="150"/\>
-\<h1\>
-\<b\>Alternex Voice Agent\</b\>
-\</h1\>
-\<p\>
-A modern, voice-first conversational AI with contextual memory, built with FastAPI and a sleek frontend.
-\</p\>
 
-\<p\>
-\<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite)" alt="Python Badge"/\>
-\<img src="[https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/FastAPI-009688%3Fstyle%3Dfor-the-badge%26logo%3Dfastapi%26logoColor%3Dwhite)" alt="FastAPI Badge"/\>
-\<img src="[https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black](https://www.google.com/search?q=https://img.shields.io/badge/JavaScript-F7DF1E%3Fstyle%3Dfor-the-badge%26logo%3Djavascript%26logoColor%3Dblack)" alt="JavaScript Badge"/\>
-\</p\>
-\</div\>
-\<br/\>
-
----
 
 ### **▶️ Demo**
 
